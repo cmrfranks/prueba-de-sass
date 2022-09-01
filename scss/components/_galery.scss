@@ -1,0 +1,19 @@
+.galery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .uno .dos .tres{
+        width: 100vw;
+        }
+        .foto {
+            margin: 10px;
+            padding: 10px;
+            img{
+                width: 12rem;
+                height: 15rem;
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+    } 
+}
